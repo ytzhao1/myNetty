@@ -1,0 +1,11 @@
+本文件夹中主要举例了简单的netty的尝试
+EchoServer为服务端
+EchoServerHandler为服务端的handler
+
+EchoClient为客户端
+EchoClientHandler为客户端的handler
+
+首先启动EchoServer服务端，监听端口，建立socket连接
+再启动EchoClient客户端，去连接服务端
+
+详细步骤，可以见类中注释
